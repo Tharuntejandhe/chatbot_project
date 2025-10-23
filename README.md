@@ -4,11 +4,11 @@ A fully functional local chatbot interface using Hugging Face text generation mo
 
 ## Features
 
-- ðŸš€ **CPU-Optimized**: Runs on any laptop without GPU
-- ðŸ’¬ **Conversational Memory**: Maintains context using sliding window (5 turns)
-- ðŸŽ¯ **Intent Resolution**: Understands elliptical follow-ups like "what about X?"
-- ðŸ”§ **Modular Architecture**: Clean separation of concerns across 3 modules
-- âš¡ **Easy Configuration**: Switch models and adjust parameters easily
+- **CPU-Optimized**: Runs on any laptop without GPU
+- **Conversational Memory**: Maintains context using sliding window (5 turns)
+- **Intent Resolution**: Understands elliptical follow-ups like "what about X?"
+- **Modular Architecture**: Clean separation of concerns across 3 modules
+- **Easy Configuration**: Switch models and adjust parameters easily
 
 ## Quick Start
 
@@ -44,11 +44,10 @@ Exiting chatbot. Goodbye!
 
 ```
 chatbot_project/
-â”œâ”€â”€ model_loader.py       # Model and tokenizer loading
-â”œâ”€â”€ chat_memory.py        # Sliding window memory buffer
-â”œâ”€â”€ interface.py          # CLI loop and integration
-â”œâ”€â”€ requirements.txt      # Dependencies
-â””â”€â”€ README.md            # This file
+model_loader.py       # Model and tokenizer loading.    chat_memory.py        # Sliding window memory buffer
+interface.py          # CLI loop and integration
+requirements.txt      # Dependencies
+README.md            # This file
 ```
 
 ## Configuration
