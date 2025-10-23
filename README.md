@@ -1,7 +1,9 @@
 # Local Command-Line Chatbot with Sliding Window Memory
 
 A fully functional local chatbot interface using Hugging Face text generation models with sliding window memory for coherent multi-turn conversations. Runs entirely on CPU without GPU requirements.
+## 🎥 Demo Video
 
+Watch the demo video: [https://youtu.be/-fEe0BBlLdo?si=zDTUEmFa3tGiOJ5z](https://youtu.be/-fEe0BBlLdo?si=zDTUEmFa3tGiOJ5z)
 ## Features
 
 - **CPU-Optimized**: Runs on any laptop without GPU
